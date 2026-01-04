@@ -3,8 +3,8 @@
 # ============================================
 import streamlit as st
 import pandas as pd
-import mysql.connector
-from mysql.connector import pooling, Error
+import pymysql
+from pymysql import Error
 from datetime import datetime
 import hashlib
 import time
@@ -1078,4 +1078,5 @@ def main():
 # 13. POINT D'ENTRÉE
 # ============================================
 if __name__ == "__main__":
+
     main()
