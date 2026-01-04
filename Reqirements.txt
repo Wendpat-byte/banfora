@@ -1,0 +1,25 @@
+# =====================================
+# Dépendances Core Application TLOH
+# =====================================
+
+# Framework web
+streamlit==1.28.0
+
+# Base de données
+mysql-connector-python==8.1.0
+protobuf==4.25.1  # Requis par mysql-connector
+
+# Traitement des données
+pandas==2.1.3
+numpy==1.24.3  # Dépendance de pandas
+
+# Gestion des dates
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Sécurité et configuration
+cryptography==41.0.7
+python-dotenv==1.0.0
+
+# Utilitaires
+typing-extensions==4.8.0
